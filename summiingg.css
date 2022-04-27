@@ -2,3 +2,10 @@ body {
 background-color: black;  
 height: 1600px;
 }
+#box1 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 700px;
+        top: 40px;
+}
