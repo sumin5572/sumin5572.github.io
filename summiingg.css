@@ -21,34 +21,44 @@ height: 1450px;
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 20px;
+        left: 230px;
         top: 950px;
 }
 #box4 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 578px;
-        top: 1010px;
+        left: 230px;
+        top: 1300px;
 }
 #box5 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 578px;
-        top: 1167px;
+        left: 230px;
+        top: 1470px;
 }
 #box6 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 578px;
-        top: 1274px;
+        left: 230px;
+        top: 1640px;
 }
 #box7 {
         position: absolute;
         width: 600px;
         height: 420px;
-        left: 880px;
+        left: 730px;
         top: 950px;
 }
+#box8 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 570px;
+        top: 1430px;
+}
+
+
+
