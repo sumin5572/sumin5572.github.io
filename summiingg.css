@@ -21,27 +21,35 @@ height: 1450px;
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 60px;
+        left: 20px;
         top: 950px;
 }
 #box4 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 615px;
+        left: 578px;
         top: 1010px;
 }
 #box5 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 615px;
+        left: 578px;
         top: 1167px;
 }
 #box6 {
         position: absolute;
         width: 600px;
         height: 400px;
-        left: 615px;
+        left: 578px;
         top: 1274px;
 }
+#box7 {
+        position: absolute;
+        width: 600px;
+        height: 420px;
+        left: 880px;
+        top: 950px;
+}
+
