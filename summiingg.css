@@ -1,6 +1,6 @@
 body {
 background-color: black;  
-height: 1600px;
+height: 1450px;
 }
 #box1 {
         position: absolute;
@@ -16,4 +16,11 @@ height: 1600px;
         left: 75px;
         top: 800px;
         border: solid 5px #ffffff
+}
+#box3 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 100px;
+        top: 950px;
 }
