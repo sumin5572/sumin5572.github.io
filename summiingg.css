@@ -10,3 +10,11 @@ height: 1600px;
         top: 200px;
         border: solid 5px #ffffff
 }
+#box2 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 150px;
+        top: 200px;
+        border: solid 5px #ffffff
+}
