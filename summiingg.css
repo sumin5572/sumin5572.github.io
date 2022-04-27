@@ -31,3 +31,17 @@ height: 1450px;
         left: 700px;
         top: 950px;
 }
+#box5 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 700px;
+        top: 1107px;
+}
+#box6 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 700px;
+        top: 1214px;
+}
