@@ -24,4 +24,10 @@ height: 1450px;
         left: 100px;
         top: 950px;
 }
-...
+#box4 {
+        position: absolute;
+        width: 600px;
+        height: 400px;
+        left: 700px;
+        top: 950px;
+}
