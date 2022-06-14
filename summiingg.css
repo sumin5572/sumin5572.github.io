@@ -20,14 +20,14 @@ header {
     height: 192px;
     margin: 0 auto;  /* position이 relative인 요소를 가운데 배치하는 방법 */
     color: #000000;
-    background-color: #Ff2079;
+    background-color: #fd4790;
 }
 main {
     position: relative;
     width: 95%;
     height: 65vw;
     margin: 0 auto;
-    background-color: #Ff2079;
+    background-color: #fd4790;
 }
 footer {
     position: relative;
@@ -35,7 +35,7 @@ footer {
     margin: 0 auto;
     height: 48px;
     color: #000000;
-    background-color: #Ff2079;
+    background-color: #fd4790;
 }
 
 
