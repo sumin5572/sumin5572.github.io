@@ -2,3 +2,11 @@ body {
 background-color: black;  
 height: 1440px;
 }
+header {
+        position: relative;
+        width: 95%;
+        height: 192px;
+        margin: 0 auto;  /* position이 relative인 요소를 가운데 배치하는 방법 */
+        color: #000000;
+        background-color: #ffffff;
+    }
