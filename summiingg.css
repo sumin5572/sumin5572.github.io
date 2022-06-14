@@ -2,3 +2,7 @@ body {
 background-color: black;  
 height: 720px;
 }
+#ggang_svg{
+        position: absolute;
+        top: 700px;
+}
