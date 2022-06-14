@@ -20,7 +20,7 @@ header {
     height: 192px;
     margin: 0 auto;  /* position이 relative인 요소를 가운데 배치하는 방법 */
     color: #000000;
-    background-color: #ffffff;
+    background-color: #Ff2079;
 }
 main {
     position: relative;
