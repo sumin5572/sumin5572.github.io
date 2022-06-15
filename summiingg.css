@@ -10,6 +10,10 @@
         }
 }
 
+body {
+        background-color: black;
+}
+
 .stagger-wapper {
         border: 1px solid red;
 }
@@ -38,9 +42,6 @@ stagger-item:nth-child(2){
         animation-delay: 0.1s;
 }
 
-body {
-        background-color: black;
-}
 
 .box1{
         position: absolute;
