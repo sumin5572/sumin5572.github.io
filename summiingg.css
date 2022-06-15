@@ -31,7 +31,7 @@ body {
 }
 .desc{
         font-size: 60px;
-        top: 155px;
+        top: 255px;
 
 }
 
@@ -47,7 +47,7 @@ stagger-item:nth-child(2){
         position: absolute;
         width:100%;
         margin-top: 477px;
-        top: 45px;
+        top: 20px;
 }
 
 .box2{
