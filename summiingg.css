@@ -38,18 +38,14 @@ stagger-item:nth-child(2){
         animation-delay: 0.1s;
 }
 
-
-.b {
-        width: 100%;
-}
-.b > img{
-        width: 100%;
+body {
+        background-color: black;
 }
 
 .box1{
         position: absolute;
         width:100%;
-        margin-top: 452px;
+        margin-top: 477px;
 }
 
 .box2{
@@ -59,6 +55,7 @@ stagger-item:nth-child(2){
         transform:rotate(180deg);
         position: absolute;
         top:40%;
+        right: 0px;
 }
 p { 
         color: #fd4790;
@@ -70,8 +67,8 @@ p {
         left: 375px;
         top: 70px;
 }
-.a {
+a {
         position: absolute;
-        top: 100px;
+        top: 400px;
         
 }
