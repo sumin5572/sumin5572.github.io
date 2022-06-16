@@ -5,6 +5,30 @@ body { background-color:black;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+#rotate {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 600px;
+    top: 160px;
+  
+}
+#rotate{
+    animation: rotation 7s;
+}
+
+@keyframes rotation {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform : rotate(360deg);
+    }
+}
+
+
+
+
 h1 {
     margin: 0; padding: 0;
 }
