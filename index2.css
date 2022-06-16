@@ -11,10 +11,13 @@ body { background-color:black;
     height: 400px;
     left: 600px;
     top: 160px;
+    border:6px solid #000000;
+    border-radius:400px
+    
   
 }
 #rotate{
-    animation: rotation 7s;
+    animation: rotation 9s;
 }
 
 @keyframes rotation {
@@ -38,6 +41,8 @@ a, a:link, a:hover, a:visited
     text-decoration: none;
     top: 70px;
 }
+
+
 header {
     position: relative;
     width: 16%;
@@ -78,10 +83,11 @@ footer {
 #mainmenu1 {
     position: absolute;
     width: 150px;
-    height: 350px;
+    height: 10px;
     left: 50%; transform: translateX(-50%);
-    bottom: 40px;
+    bottom: 370px;
     text-align: center;
+    
     
     /* background-color: #fff; */
 }
