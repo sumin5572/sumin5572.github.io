@@ -54,9 +54,9 @@ footer {
     width: 150px;
     height: 350px;
     left: 50%; transform: translateX(-50%);
-    bottom: 24px;
+    bottom: 40px;
     text-align: center;
-    border:solid 2px red;
+    
     /* background-color: #fff; */
 }
 #mainmenu2 {
@@ -82,14 +82,14 @@ footer {
 #mainmenu1> ul a:visited
 {
     text-decoration: none;
-    color: #e84df7;
+    color: #fd4790;
 }
 
 #mainmenu2 > ul a:link,
 #mainmenu2> ul a:visited
 {
     text-decoration: none;
-    color: #5b24e6;
+    color: #fd4790;
 }
 #mainmenu1 > ul a:hover
 {
