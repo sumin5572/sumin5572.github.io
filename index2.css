@@ -14,11 +14,11 @@ a, a:link, a:hover, a:visited
 }
 header {
     position: relative;
-    width: 95%;
-    height: 100px;
-    margin: 0 auto;  /* position이 relative인 요소를 가운데 배치하는 방법 */
-    color: #000000;
-    background-color: #fd4790;
+    width: 16%;
+    height: 680px;
+    left: 40px;
+    color: #fd4790;
+    background-color:   #582238;
 }
 main {
     position: relative;
@@ -42,46 +42,84 @@ footer {
     position: relative;
     width: 360px;
     margin: 0 auto;
-    padding-top: 10px;
-    text-align: center;
+    padding-top: 55px;
+    left: 65px;
     font-family: 'Amarante', cursive;
     font-size: 2.0em;
     font-weight: 700;
     /* background-color: #ffffff; */
 }
-#mainmenu {
+#mainmenu1 {
     position: absolute;
-    width: 400px;
-    height: 24px;
+    width: 150px;
+    height: 350px;
     left: 50%; transform: translateX(-50%);
     bottom: 24px;
     text-align: center;
+    border:solid 2px red;
     /* background-color: #fff; */
 }
-#mainmenu > ul {
+#mainmenu2 {
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    left: 50%; transform: translateX(-50%);
+    bottom:1px;
+    text-align: center;
+  
+}
+#mainmenu1 > ul {
     display: inline-block;
     margin: 0; padding: 0;
     list-style-type: none;
 }
-#mainmenu > ul a:link,
-#mainmenu > ul a:visited
+#mainmenu2 > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#mainmenu1 > ul a:link,
+#mainmenu1> ul a:visited
 {
     text-decoration: none;
-    color: #000000;
+    color: #e84df7;
 }
-#mainmenu > ul a:hover
+
+#mainmenu2 > ul a:link,
+#mainmenu2> ul a:visited
+{
+    text-decoration: none;
+    color: #5b24e6;
+}
+#mainmenu1 > ul a:hover
 {
     text-decoration: underline;
 }
-#mainmenu > ul li {
+#mainmenu2 > ul a:hover
+{
+    text-decoration: underline;
+}
+#mainmenu1 > ul li {
     float: left;
     padding: 0 24px;
     /* background-color: #fff;
     border: solid 1px #000; */
 }
-#mainmenu > ul li:hover {
+#mainmenu2 > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+
+#mainmenu1 > ul li:hover {
     /* background-color: #ffffff; */
 }
+#mainmenu2 > ul li:hover {
+    /* background-color: #ffffff; */
+}
+
+
 #social {
     position: absolute;
     bottom: 24px;
