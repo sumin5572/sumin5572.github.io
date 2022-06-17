@@ -1,5 +1,124 @@
-.box1{
-background-color: antiquewhite;
-width: 100px;
-min-height: 100px;
+body { background-color:black;
+    margin: 0; padding: 0;  /* body 태그의 CSS 기본값 수정 */
+    font-family: 'Noto Sans KR', sans-serif;
 }
+
+h1 {
+    margin: 0; padding: 0;
+}
+a, a:link, a:hover, a:visited
+{
+    color: #fd4790;
+    text-decoration: none;
+    top: 70px;
+}
+
+
+header {
+    position: relative;
+    width: 16%;
+    height: 680px;
+    left: 40px;
+    color: #fd4790;
+    background-color:   #582238;
+}
+main {
+    position: relative;
+    width: 95%;
+    height: 65vw;
+    margin: 0 auto;
+    background-color: #fd4790;
+}
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 48px;
+    color: #000000;
+    background-color: #fd4790;
+}
+
+
+/* header 영역 스타일 */
+#logo {
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 55px;
+    left: 65px;
+    font-family: 'Amarante', cursive;
+    font-size: 2.0em;
+    font-weight: 700;
+    /* background-color: #ffffff; */
+}
+#mainmenu1 {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    left: 50%; transform: translateX(-50%);
+    bottom: 370px;
+    text-align: center;
+    
+    
+    /* background-color: #fff; */
+}
+#mainmenu2 {
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    left: 50%; transform: translateX(-50%);
+    bottom:1px;
+    text-align: center;
+  
+}
+#mainmenu1 > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#mainmenu2 > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#mainmenu1 > ul a:link,
+#mainmenu1> ul a:visited
+{
+    text-decoration: none;
+    color: #fd4790;
+}
+
+#mainmenu2 > ul a:link,
+#mainmenu2> ul a:visited
+{
+    text-decoration: none;
+    color: #fd4790;
+}
+#mainmenu1 > ul a:hover
+{
+    text-decoration: underline;
+}
+#mainmenu2 > ul a:hover
+{
+    text-decoration: underline;
+}
+#mainmenu1 > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+#mainmenu2 > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+
+#mainmenu1 > ul li:hover {
+    /* background-color: #ffffff; */
+}
+#mainmenu2 > ul li:hover {
+    /* background-color: #ffffff; */
+}
+
