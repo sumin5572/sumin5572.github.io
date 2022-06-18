@@ -12,6 +12,12 @@ a, a:link, a:hover, a:visited
     text-decoration: none;
     top: 70px;
 }
+html, p {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 header {
@@ -122,3 +128,11 @@ footer {
     /* background-color: #ffffff; */
 }
 
+#rotate {
+    position: fixed;
+    top: 620px;
+    left: 1200px;
+    border-radius: 0%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
