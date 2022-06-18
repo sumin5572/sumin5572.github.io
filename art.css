@@ -130,9 +130,7 @@ footer {
     bottom: 700px;
     
 }
-.slider input[type=radio]{
-    display: none;
-}
+
 ul.imgs{
     padding: 0;
     margin: 0;

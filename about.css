@@ -1,8 +1,31 @@
+
 body { background-color:black;
     margin: 0; padding: 0;  /* body 태그의 CSS 기본값 수정 */
     font-family: 'Noto Sans KR', sans-serif;
 }
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
 
+#rotate2 {
+    /* flexbox를 사용하여 박스 안에 들어 있는 아이템을 가운데 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 70px;
+    left: 400px;
+   
+  
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 h1 {
     margin: 0; padding: 0;
 }
@@ -130,9 +153,13 @@ footer {
 
 #rotate {
     position: fixed;
-    top: 620px;
-    left: 1200px;
+    top: 550px;
+    left: 1180px;
     border-radius: 0%;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
+
+
+
