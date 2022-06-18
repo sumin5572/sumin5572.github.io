@@ -1,9 +1,5 @@
-<!DOCTYPE html>  
-<html>
-    <div id="box">
-        <img src="hi.png" width="700" height="422">
-    </div>
-    
+
+
 <head>
     <meta charset="utf-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -27,5 +23,44 @@
          </ul>
    
  </header>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="art.css">
+</head>
+<body>
+<div class="slider">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <ul id="imgholder" class="imgs">
+        <li><img src="hi.png"></li>
+        <li><img src="hihi.png"></li>
+        <li><img src="hihihi.png"></li>
+    </ul>
+    <div class="bullets">
+        <label for="slide1">&nbsp;</label>
+        <label for="slide2">&nbsp;</label>
+        <label for="slide3">&nbsp;</label>
+    </div>
+</div>
+</body>
+</html>
+
+ <style>
+     .slide1 {
+    position: absolute;
+    width: 100px;
+    height: 100x;
+    left: 500px;
+    top: 130px;
+    border:6px solid #000000;
+    border-radius:400px
+}
+
+ </style>
  
 
